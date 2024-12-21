@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'gilroyblack'; 
+    src: url('../../medhavi/public/fonts/gilroy-black.ttf') format('truetype'); 
+    font-weight: bold; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroymedium'; 
+    src: url('../../medhavi/public/fonts/gilroy-medium.ttf') format('truetype'); 
+    font-weight: bold; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroysemibold'; 
+    src: url('../../medhavi/public/fonts/gilroy-semibold.ttf') format('truetype'); 
+    font-weight: bold; 
+    font-style: normal;
+}
+
+
+.slick-slide > div {
+    margin: 30px 2px;
+    /* padding: 10px 20px; */
+}
